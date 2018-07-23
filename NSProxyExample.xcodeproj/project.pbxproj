@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7741B17820E7BB260041F4CE /* MyProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 7741B17720E7BB260041F4CE /* MyProtocol.m */; };
 		77F57D0020E6788C00733946 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F57CFF20E6788C00733946 /* AppDelegate.m */; };
 		77F57D0320E6788C00733946 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F57D0220E6788C00733946 /* ViewController.m */; };
 		77F57D0620E6788C00733946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F57D0420E6788C00733946 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		77F57D0E20E6788C00733946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F57D0D20E6788C00733946 /* main.m */; };
 		77F57D1820E6788C00733946 /* NSProxyExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F57D1720E6788C00733946 /* NSProxyExampleTests.m */; };
 		77F57D2320E6788C00733946 /* NSProxyExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F57D2220E6788C00733946 /* NSProxyExampleUITests.m */; };
+		77F57D3420E6790900733946 /* UniversalDelegateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F57D3320E6790800733946 /* UniversalDelegateHandler.m */; };
+		77F57D3520E6790900733946 /* UniversalDelegateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F57D3320E6790800733946 /* UniversalDelegateHandler.m */; };
+		77F57D3620E6790900733946 /* UniversalDelegateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F57D3320E6790800733946 /* UniversalDelegateHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7741B17620E7BB0E0041F4CE /* MyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProtocol.h; sourceTree = "<group>"; };
+		7741B17720E7BB260041F4CE /* MyProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyProtocol.m; sourceTree = "<group>"; };
 		77F57CFB20E6788C00733946 /* NSProxyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSProxyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F57CFE20E6788C00733946 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		77F57CFF20E6788C00733946 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,10 @@
 		77F57D1E20E6788C00733946 /* NSProxyExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSProxyExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F57D2220E6788C00733946 /* NSProxyExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSProxyExampleUITests.m; sourceTree = "<group>"; };
 		77F57D2420E6788C00733946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F57D3020E6790800733946 /* NSPointerArray+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPointerArray+Extensions.h"; sourceTree = "<group>"; };
+		77F57D3120E6790800733946 /* UniversalDelegateHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversalDelegateHandler.h; sourceTree = "<group>"; };
+		77F57D3220E6790800733946 /* NSThread+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+Extensions.h"; sourceTree = "<group>"; };
+		77F57D3320E6790800733946 /* UniversalDelegateHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversalDelegateHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,10 @@
 		77F57CFD20E6788C00733946 /* NSProxyExample */ = {
 			isa = PBXGroup;
 			children = (
+				77F57D3020E6790800733946 /* NSPointerArray+Extensions.h */,
+				77F57D3220E6790800733946 /* NSThread+Extensions.h */,
+				77F57D3120E6790800733946 /* UniversalDelegateHandler.h */,
+				77F57D3320E6790800733946 /* UniversalDelegateHandler.m */,
 				77F57CFE20E6788C00733946 /* AppDelegate.h */,
 				77F57CFF20E6788C00733946 /* AppDelegate.m */,
 				77F57D0120E6788C00733946 /* ViewController.h */,
@@ -110,6 +124,8 @@
 				77F57D0920E6788C00733946 /* LaunchScreen.storyboard */,
 				77F57D0C20E6788C00733946 /* Info.plist */,
 				77F57D0D20E6788C00733946 /* main.m */,
+				7741B17620E7BB0E0041F4CE /* MyProtocol.h */,
+				7741B17720E7BB260041F4CE /* MyProtocol.m */,
 			);
 			path = NSProxyExample;
 			sourceTree = "<group>";
@@ -268,6 +284,8 @@
 				77F57D0320E6788C00733946 /* ViewController.m in Sources */,
 				77F57D0E20E6788C00733946 /* main.m in Sources */,
 				77F57D0020E6788C00733946 /* AppDelegate.m in Sources */,
+				77F57D3420E6790900733946 /* UniversalDelegateHandler.m in Sources */,
+				7741B17820E7BB260041F4CE /* MyProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77F57D1820E6788C00733946 /* NSProxyExampleTests.m in Sources */,
+				77F57D3520E6790900733946 /* UniversalDelegateHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77F57D2320E6788C00733946 /* NSProxyExampleUITests.m in Sources */,
+				77F57D3620E6790900733946 /* UniversalDelegateHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +378,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -372,7 +392,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -412,7 +432,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
